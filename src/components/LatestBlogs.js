@@ -35,7 +35,7 @@ const LatestBlog = () => {
   return (
     <div>
       <Layout>
-        <h1>Blog Page</h1>
+        <h1>Fart Page</h1>
         <ol style={{ display: "flex" }} className={blogStyles.posts}>
           {data.allMarkdownRemark.edges
             .slice(Math.max(data.allMarkdownRemark.edges.length - 3, 0))
