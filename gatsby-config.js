@@ -4,6 +4,10 @@ module.exports = {
     author: "Jason Sorenson",
   },
   plugins: [
+    {
+      resolve: "gatsby-plugin-styled-components",
+      options: {},
+    },
     "gatsby-plugin-sass",
     {
       resolve: "gatsby-source-filesystem",

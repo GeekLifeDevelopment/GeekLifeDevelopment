@@ -3,17 +3,17 @@ import { Link } from "gatsby"
 
 import Layout from "../components/Layout"
 import LatestBlog from "../components/LatestBlogs"
+import { IndexPageStyles } from "../components/styles/IndexPageStyles"
 
 const IndexPage = () => {
   return (
     <div>
       <Layout>
-        <h1>Hello</h1>
-        <h2>I am Jason a full stack developer living in Racine</h2>
-        <p>
-          Need a developer? <Link to="/contact"> Contact Me</Link>
-        </p>
-        <LatestBlog />
+        <IndexPageStyles>
+          <div id="hero-image-container"></div>
+
+          <LatestBlog />
+        </IndexPageStyles>
       </Layout>
     </div>
   )

@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import MainNavBar from "./MainMavBar"
+import MainNavBar from "./MainNavBar"
 
 class Navigation extends Component {
   render() {

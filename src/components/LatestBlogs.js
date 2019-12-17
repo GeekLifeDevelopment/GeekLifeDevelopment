@@ -34,32 +34,30 @@ const LatestBlog = () => {
   `)
   return (
     <div>
-      <Layout>
-        <h1>Fart Page</h1>
-        <ol style={{ display: "flex" }} className={blogStyles.posts}>
-          {data.allMarkdownRemark.edges
-            .slice(Math.max(data.allMarkdownRemark.edges.length - 3, 0))
-            .reverse()
-            .map(edge => {
-              return (
-                <Link to={`/blog/${edge.node.fields.slug}`}>
-                  <li className={blogStyles.post}>
-                    <img
-                      src={
-                        edge.node.frontmatter.featuredImage.childImageSharp
-                          .fluid.src
-                      }
-                    />
-                    <h2>{edge.node.frontmatter.title}</h2>
-                    <p>{edge.node.excerpt}</p>
-                    <p>{edge.node.frontmatter.date}</p>
-                    <p>Reading time {edge.node.timeToRead} minutes</p>
-                  </li>
-                </Link>
-              )
-            })}
-        </ol>
-      </Layout>
+      <h1>Fart Page</h1>
+      <ol style={{ display: "flex" }} className={blogStyles.posts}>
+        {data.allMarkdownRemark.edges
+          .slice(Math.max(data.allMarkdownRemark.edges.length - 3, 0))
+          .reverse()
+          .map(edge => {
+            return (
+              <Link to={`/blog/${edge.node.fields.slug}`}>
+                <li className={blogStyles.post}>
+                  <img
+                    src={
+                      edge.node.frontmatter.featuredImage.childImageSharp.fluid
+                        .src
+                    }
+                  />
+                  <h2>{edge.node.frontmatter.title}</h2>
+                  <p>{edge.node.excerpt}</p>
+                  <p>{edge.node.frontmatter.date}</p>
+                  <p>Reading time {edge.node.timeToRead} minutes</p>
+                </li>
+              </Link>
+            )
+          })}
+      </ol>
     </div>
   )
 }
