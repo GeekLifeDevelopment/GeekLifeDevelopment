@@ -8,6 +8,10 @@ export const MainNavBarStyles = styled.div`
     background-color: #83b799;
     color: whitesmoke;
 
+    @media (max-width: 1000px) {
+      grid-template-columns: 10% auto 10%;
+    }
+
     #logo-container {
       display: flex;
       align-items: center;
@@ -21,6 +25,44 @@ export const MainNavBarStyles = styled.div`
         font-family: "Orbitron", sans-serif;
         margin: 0;
       }
+      @media (max-width: 1000px) {
+        display: none;
+      }
+    }
+
+    #logo-container-mobile {
+      display: none;
+      /* display: flex; */
+      align-items: center;
+      justify-self: center;
+
+      img {
+        margin: 0 0 0 20px;
+        width: 50px;
+      }
+      p {
+        padding-left: 0.5rem;
+        font-family: "Orbitron", sans-serif;
+        margin: 0;
+      }
+      @media (max-width: 1000px) {
+        display: flex;
+      }
+    }
+
+    #hamburger-logo {
+      margin: 0 0 0 20px;
+      display: none;
+
+      /* i {
+        margin: 0;
+        padding: 0;
+        align-self: center;
+      } */
+
+      @media (max-width: 1000px) {
+        display: block;
+      }
     }
 
     ul {
@@ -28,6 +70,10 @@ export const MainNavBarStyles = styled.div`
       display: flex;
       margin: 0;
       justify-self: center;
+
+      @media (max-width: 1000px) {
+        display: none;
+      }
 
       li {
         margin: 0;

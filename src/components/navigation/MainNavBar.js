@@ -11,6 +11,13 @@ const MainNavBar = () => {
             <img src={Logo} alt="Geek Life Development Logo" />
             <p>Geek Life Development</p>
           </div>
+          <div id="hamburger-logo">
+            <i className="fas fa-bars"></i>
+          </div>
+          <div id="logo-container-mobile">
+            <img src={Logo} alt="Geek Life Development Logo" />
+            <p>Geek Life Development</p>
+          </div>
           <ul>
             <li>Home</li>
             <li>Posts</li>

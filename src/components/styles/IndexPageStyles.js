@@ -17,5 +17,16 @@ export const IndexPageStyles = styled.div`
         object-fit: cover;
       }
     }
+
+    #hero-logo-container {
+      position: absolute;
+      top: 20%;
+      left: 50%;
+      margin-left: -280px;
+
+      img {
+        width: 80%;
+      }
+    }
   }
 `
