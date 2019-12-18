@@ -7,6 +7,7 @@ export const MainNavBarStyles = styled.div`
     align-items: center;
     background-color: #83b799;
     color: whitesmoke;
+    padding: 0.3rem;
 
     @media (max-width: 1000px) {
       grid-template-columns: 10% auto 10%;
@@ -54,11 +55,10 @@ export const MainNavBarStyles = styled.div`
       margin: 0 0 0 20px;
       display: none;
 
-      /* i {
-        margin: 0;
-        padding: 0;
+      i {
+        font-size: 1.3em;
         align-self: center;
-      } */
+      }
 
       @media (max-width: 1000px) {
         display: block;
