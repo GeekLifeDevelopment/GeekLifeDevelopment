@@ -23,6 +23,7 @@ export const IndexPageStyles = styled.div`
       top: 20%;
       left: 50%;
       margin-left: -280px;
+      z-index: 3;
 
       img {
         width: 80%;

@@ -20,6 +20,10 @@ const IndexPage = () => {
             <div id="hero-overlay-container"></div>
             <div id="hero-logo-container">
               <img src={HeroImageLogo} alt="" />
+
+              <div id="code-logos">
+                <i className="fab fa-html5"></i>
+              </div>
             </div>
           </div>
 
