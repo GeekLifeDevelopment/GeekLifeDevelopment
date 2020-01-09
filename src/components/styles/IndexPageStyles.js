@@ -25,15 +25,16 @@ export const IndexPageStyles = styled.div`
       margin-left: -252.5px;
       z-index: 3;
 
-      @media (max-width: 580px) {
-        margin-left: -175px;  
+      @media (max-width: 675px) {
+        margin-left: -175px;
+        top: 10%;
       }
 
       img {
         width: 550px;
         margin: 0%;
 
-        @media (max-width: 580px) {
+        @media (max-width: 675px) {
           width: 350px;
         }
       }
