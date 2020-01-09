@@ -25,9 +25,17 @@ export const IndexPageStyles = styled.div`
       margin-left: -252.5px;
       z-index: 3;
 
+      @media (max-width: 580px) {
+        margin-left: -175px;  
+      }
+
       img {
         width: 550px;
         margin: 0%;
+
+        @media (max-width: 580px) {
+          width: 350px;
+        }
       }
 
       #code-logos {
