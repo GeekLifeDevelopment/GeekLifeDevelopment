@@ -30,7 +30,7 @@ const IndexPage = () => {
             </div>
           </div>
 
-          <LatestBlog />
+          {/* <LatestBlog /> */}
         </IndexPageStyles>
       </Layout>
     </div>
