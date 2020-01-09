@@ -22,7 +22,10 @@ const IndexPage = () => {
               <img src={HeroImageLogo} alt="" />
 
               <div id="code-logos">
-                <i className="fab fa-html5"></i>
+                <i style={{ color: "#e44d26" }} className="fab fa-html5"></i>
+                <i style={{ color: "#2965f1" }} className="fab fa-css3-alt"></i>
+                <i style={{ color: "orange" }} className="fab fa-react"></i>
+                <i style={{ color: "orange" }} className="fab fa-js"></i>
               </div>
             </div>
           </div>

@@ -22,11 +22,20 @@ export const IndexPageStyles = styled.div`
       position: absolute;
       top: 20%;
       left: 50%;
-      margin-left: -280px;
+      margin-left: -252.5px;
       z-index: 3;
 
       img {
-        width: 80%;
+        width: 550px;
+        margin: 0%;
+      }
+
+      #code-logos {
+        text-align: center;
+        i {
+          font-size: 3.5em;
+          padding: 0 1rem;
+        }
       }
     }
   }
