@@ -20,7 +20,7 @@ export const IndexPageStyles = styled.div`
 
     #hero-logo-container {
       position: absolute;
-      top: 20%;
+      top: 30%;
       left: 50%;
       margin-left: -252.5px;
       z-index: 3;
