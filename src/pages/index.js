@@ -1,11 +1,10 @@
 import React from "react"
-import { Link } from "gatsby"
+
 import HeroImage from "../images/geek-life-development-hero-image.jpg"
 import HeroImageLogo from "../images/geek-life-development-hero-logo.png"
 
 import { Helmet } from "react-helmet"
-import { graphql, useStaticQuery } from "gatsby"
-import { Img } from "gatsby-image"
+
 import Layout from "../components/Layout"
 import LatestBlog from "../components/LatestBlogs"
 import { IndexPageStyles } from "../components/styles/IndexPageStyles"
@@ -26,7 +25,7 @@ const IndexPage = () => {
             <div id="hero-overlay-container"></div>
             <div id="hero-logo-container">
               <img src={HeroImageLogo} alt="" />
-              {/* <Img fluid={data.file.childImageSharp.fluid} /> */}
+
               <div id="code-logos">
                 <i style={{ color: "#e44d26" }} className="fab fa-html5"></i>
                 <i style={{ color: "#2965f1" }} className="fab fa-css3-alt"></i>
