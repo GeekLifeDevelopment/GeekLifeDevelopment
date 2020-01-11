@@ -48,4 +48,30 @@ export const IndexPageStyles = styled.div`
       }
     }
   }
+
+  #about-section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    #image-container {
+      img {
+        border-radius: 50%;
+        margin: 0.5rem;
+        @media (max-width: 580px) {
+          width: 350px;
+        }
+      }
+    }
+    #about-text {
+      width: 85%;
+      align-self: center;
+      @media (max-width: 580px) {
+        float: left;
+      }
+    }
+
+    @media (max-width: 580px) {
+      grid-template-columns: 100%;
+    }
+  }
 `
