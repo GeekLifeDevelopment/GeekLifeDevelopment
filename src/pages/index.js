@@ -6,7 +6,7 @@ import HeroImageLogo from "../images/geek-life-development-hero-logo.png"
 import { Helmet } from "react-helmet"
 
 import Layout from "../components/Layout"
-import LatestBlog from "../components/LatestBlogs"
+// import LatestBlog from "../components/LatestBlogs"
 import { IndexPageStyles } from "../components/styles/IndexPageStyles"
 
 const IndexPage = () => {
