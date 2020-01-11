@@ -2,7 +2,7 @@ import React from "react"
 import { MainNavBarStyles } from "./styles/MainNavBarStyles"
 import Logo from "../../images/geek-life-development-logo.png"
 
-const MainNavBar = () => {
+const MainNavBar = props => {
   return (
     <div>
       <MainNavBarStyles>
@@ -12,17 +12,16 @@ const MainNavBar = () => {
             <p>Geek Life Development</p>
           </div>
           <div id="hamburger-logo">
-            <i className="fas fa-bars"></i>
+            <i onClick={props.showMobileNav} className="fas fa-bars"></i>
           </div>
           <div id="logo-container-mobile">
             <img src={Logo} alt="Geek Life Development Logo" />
             <p>Geek Life Development</p>
           </div>
           <ul>
-            <li>Home</li>
-            <li>Posts</li>
-            <li>Work</li>
-            <li>Contact</li>
+            <li>Tutorials</li>
+            <li>Blog</li>
+            <li>Get in touch</li>
           </ul>
           <div id="social-container">
             <ul>

@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 export const MainNavBarStyles = styled.div`
   #navbar-container {
+    /* position: fixed; */
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
     align-items: center;
@@ -76,7 +77,7 @@ export const MainNavBarStyles = styled.div`
       }
 
       li {
-        margin: 0;
+        margin: 0 0.5rem;
         padding: 0.5rem;
       }
     }
