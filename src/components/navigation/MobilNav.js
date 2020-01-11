@@ -18,19 +18,19 @@ const MobilNavStyles = styled.div`
       padding: 1rem;
 
       li {
-        margin: 1rem 0;
-        font-size: 1.5em;
+        margin: 2rem 0;
+        font-size: 1.3em;
       }
     }
 
     #social-mobile {
-      margin-top: 2rem;
+      margin-top: 0.3rem;
       color: white;
-      padding: 1.5rem;
+      padding: 0.5rem;
 
       i {
         margin: 0 0.5rem;
-        font-size: 1em;
+        font-size: 1.3em;
       }
     }
   }
