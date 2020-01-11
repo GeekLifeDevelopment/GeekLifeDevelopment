@@ -27,7 +27,7 @@ export const IndexPageStyles = styled.div`
 
       @media (max-width: 675px) {
         margin-left: -175px;
-        top: 35%;
+        top: 25%;
       }
 
       img {
