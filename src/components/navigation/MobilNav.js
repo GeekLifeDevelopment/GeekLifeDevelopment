@@ -5,10 +5,11 @@ const MobilNavStyles = styled.div`
   #nav-container {
     width: 200px;
     height: 350px;
-    position: absolute;
+    position: fixed;
+    margin-top: 52px;
     border-bottom-right-radius: 50%;
     border-right: 1px solid white;
-    z-index: 10;
+    z-index: 9;
     background-color: rgba(0, 0, 0, 0.5);
 
     ul {
