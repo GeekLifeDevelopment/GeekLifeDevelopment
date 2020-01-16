@@ -7,7 +7,7 @@ import ProfileImage from "../images/jasonandbecky.jpg"
 import { Helmet } from "react-helmet"
 
 import Layout from "../components/Layout"
-// import LatestBlog from "../components/LatestBlogs"
+import LatestBlog from "../components/LatestBlogs"
 import { IndexPageStyles } from "../components/styles/IndexPageStyles"
 
 import Button from "../components/controls/Button"
@@ -55,7 +55,7 @@ const IndexPage = () => {
             </div>
           </div>
 
-          {/* <LatestBlog /> */}
+          <LatestBlog />
         </IndexPageStyles>
       </Layout>
     </>

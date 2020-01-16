@@ -1,8 +1,29 @@
 import React from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
-
+import styled from "styled-components"
 import Layout from "../components/Layout"
 import blogStyles from "../pages/blog.module.scss"
+
+const LatestBlogStyles = styled.div`
+  h1 {
+    padding: 2rem;
+  }
+
+  ol {
+    background-color: #333;
+    display: flex;
+    /* flex-wrap: wrap; */
+
+    li {
+      background-color: green;
+      width: 30%;
+      text-decoration: none;
+      color: black;
+      margin: 2rem;
+      padding: 1rem;
+    }
+  }
+`
 
 const LatestBlog = () => {
   const data = useStaticQuery(graphql`
@@ -33,32 +54,34 @@ const LatestBlog = () => {
     }
   `)
   return (
-    <div>
-      <h1>Fart Page</h1>
-      <ol style={{ display: "flex" }} className={blogStyles.posts}>
-        {data.allMarkdownRemark.edges
-          .slice(Math.max(data.allMarkdownRemark.edges.length - 3, 0))
-          .reverse()
-          .map(edge => {
-            return (
-              <Link to={`/blog/${edge.node.fields.slug}`}>
-                <li className={blogStyles.post}>
-                  <img
-                    src={
-                      edge.node.frontmatter.featuredImage.childImageSharp.fluid
-                        .src
-                    }
-                  />
-                  <h2>{edge.node.frontmatter.title}</h2>
-                  <p>{edge.node.excerpt}</p>
-                  <p>{edge.node.frontmatter.date}</p>
-                  <p>Reading time {edge.node.timeToRead} minutes</p>
-                </li>
-              </Link>
-            )
-          })}
-      </ol>
-    </div>
+    <LatestBlogStyles>
+      <div>
+        <h1>Whats New</h1>
+        <ol className={blogStyles.posts}>
+          {data.allMarkdownRemark.edges
+            .slice(Math.max(data.allMarkdownRemark.edges.length - 3, 0))
+            .reverse()
+            .map(edge => {
+              return (
+                <Link to={`/blog/${edge.node.fields.slug}`}>
+                  <li>
+                    <img
+                      src={
+                        edge.node.frontmatter.featuredImage.childImageSharp
+                          .fluid.src
+                      }
+                    />
+                    <h2>{edge.node.frontmatter.title}</h2>
+                    <p>{edge.node.excerpt}</p>
+                    <p>{edge.node.frontmatter.date}</p>
+                    <p>Reading time {edge.node.timeToRead} minute(s)</p>
+                  </li>
+                </Link>
+              )
+            })}
+        </ol>
+      </div>
+    </LatestBlogStyles>
   )
 }
 
