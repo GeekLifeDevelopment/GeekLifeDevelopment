@@ -1,12 +1,12 @@
 ---
 title: "Test Blog 1"
 date: "2019-04-04"
-featuredImage: ./260-tan.png
+featuredImage: "./testImage.jpeg"
 ---
 
 I am just checking this out
 
-![machine](./260-tan.png)
+![machine](./testImage.jpeg)
 
 ## Topics Covered
 

@@ -7,17 +7,25 @@ import blogStyles from "../pages/blog.module.scss"
 const LatestBlogStyles = styled.div`
   h1 {
     padding: 2rem;
+    text-decoration: none;
   }
 
   ol {
-    background-color: #333;
+    background-color: #88928c;
     display: flex;
-    /* flex-wrap: wrap; */
-
+    transform: skewY(-5deg);
     li {
-      background-color: green;
-      width: 30%;
-      text-decoration: none;
+      background-color: #bbcfc3;
+      box-shadow: 5px 10px 10px #4a6478;
+
+      img {
+        max-height: 8rem;
+        width: 100%;
+        object-fit: cover;
+      }
+      p {
+        text-decoration: none;
+      }
       color: black;
       margin: 2rem;
       padding: 1rem;
@@ -74,7 +82,7 @@ const LatestBlog = () => {
                     <h2>{edge.node.frontmatter.title}</h2>
                     <p>{edge.node.excerpt}</p>
                     <p>{edge.node.frontmatter.date}</p>
-                    <p>Reading time {edge.node.timeToRead} minute(s)</p>
+                    <p>Reading time {edge.node.timeToRead} min</p>
                   </li>
                 </Link>
               )
