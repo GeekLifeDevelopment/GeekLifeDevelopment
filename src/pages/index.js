@@ -37,7 +37,7 @@ const IndexPage = () => {
               </div>
             </div>
           </div>
-          <h1>Introductions</h1>
+          <h1 id="about-header">Hi, I'm Jason. Nice to meet you.</h1>
           <div id="about-section">
             <img
               style={{ borderRadius: "50%" }}

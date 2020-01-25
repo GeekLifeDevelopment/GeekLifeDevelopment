@@ -74,4 +74,8 @@ export const IndexPageStyles = styled.div`
       grid-template-columns: 100%;
     }
   }
+
+  #about-header {
+    text-align: center;
+  }
 `
