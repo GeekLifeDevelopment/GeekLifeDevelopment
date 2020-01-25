@@ -21,7 +21,7 @@ const MainNavBar = props => {
           <ul>
             <li>Tutorials</li>
             <li>Blog</li>
-            <li>Get in touch</li>
+            <li>Say Hello</li>
           </ul>
           <div id="social-container">
             <ul>

@@ -47,7 +47,7 @@ const MobilNav = props => {
         <ul>
           <li>Tutorials</li>
           <li>Blog</li>
-          <li>Get in touch</li>
+          <li>Say Hello</li>
         </ul>
         <div id="social-mobile">
           <i className="fab fa-facebook-f"></i>
