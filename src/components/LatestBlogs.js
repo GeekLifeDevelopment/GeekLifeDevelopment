@@ -17,7 +17,7 @@ const LatestBlogStyles = styled.div`
     transform: skewY(-5deg);
 
     li {
-      width: 350px;
+      /* width: 350px; */
       background-color: #bbcfc3;
       box-shadow: 5px 10px 10px #4a6478;
 
