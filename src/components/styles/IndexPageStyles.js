@@ -66,7 +66,9 @@ export const IndexPageStyles = styled.div`
       width: 50%;
       align-self: center;
 
-      @media (max-width: 580px) {
+      @media (max-width: 840px) {
+        width: 100%;
+        padding: 1rem;
       }
     }
 
