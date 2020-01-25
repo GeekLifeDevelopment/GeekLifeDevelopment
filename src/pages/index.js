@@ -37,21 +37,31 @@ const IndexPage = () => {
               </div>
             </div>
           </div>
-
+          <h1>Introductions</h1>
           <div id="about-section">
-            <div id="image-container">
-              <img src={ProfileImage} alt="Profile image of my wife and me" />
-            </div>
+            <img
+              style={{ borderRadius: "50%" }}
+              src={ProfileImage}
+              alt="Profile image of my wife and me"
+            />
             <div id="about-text">
-              Lorem ipsum dolor amet air plant wayfarers ugh tbh, master cleanse
-              selvage asymmetrical shaman blue bottle keytar VHS lumbersexual.
-              Quinoa enamel pin intelligentsia schlitz roof party occupy. Man
-              bun copper mug unicorn, kale chips put a bird on it palo santo
-              before they sold out. Asymmetrical seitan meditation palo santo
-              bitters.
-              <div style={{ float: "right", margin: "2rem" }}>
-                <Button btnName="More" />
-              </div>
+              <p>
+                Lorem ipsum dolor amet air plant wayfarers ugh tbh, master
+                cleanse selvage asymmetrical shaman blue bottle keytar VHS
+                lumbersexual. Quinoa enamel pin intelligentsia schlitz roof
+                party occupy. Man bun copper mug unicorn, kale chips put a bird
+                on it palo santo before they sold out. Asymmetrical seitan
+                meditation palo santo bitters. chips put a bird on it palo santo
+                before they sold out. Asymmetrical seitan meditation palo santo
+                bitters.chips put a bird on it palo santo before they sold out.
+                Asymmetrical seitan meditation palo santo bitters.chips put a
+                bird on it palo santo before they sold out. Asymmetrical seitan
+                meditation palo santo bitters.chips put a bird on it palo santo
+                before they sold out. Asymmetrical seitan meditation palo santo
+                bitters.chips put a bird on it palo santo before they sold out.
+                Asymmetrical seitan meditation palo santo bitters.
+              </p>
+              <Button btnName="More" />
             </div>
           </div>
 
