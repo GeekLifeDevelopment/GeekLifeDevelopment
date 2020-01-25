@@ -58,7 +58,7 @@ export const IndexPageStyles = styled.div`
       margin: 0.5rem;
 
       @media (max-width: 580px) {
-        width: 350px;
+        /* width: 350px; */
       }
     }
 
