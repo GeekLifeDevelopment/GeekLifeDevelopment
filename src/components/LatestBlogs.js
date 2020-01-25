@@ -30,6 +30,10 @@ const LatestBlogStyles = styled.div`
       margin: 2rem;
       padding: 1rem;
     }
+
+    @media (max-width: 1000px) {
+      display: block;
+    }
   }
 `
 
