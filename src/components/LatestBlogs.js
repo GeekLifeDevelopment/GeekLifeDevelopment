@@ -13,8 +13,11 @@ const LatestBlogStyles = styled.div`
   ol {
     background-color: #88928c;
     display: flex;
+    justify-content: space-around;
     transform: skewY(-5deg);
+
     li {
+      width: 350px;
       background-color: #bbcfc3;
       box-shadow: 5px 10px 10px #4a6478;
 
@@ -68,7 +71,8 @@ const LatestBlog = () => {
   return (
     <LatestBlogStyles>
       <div>
-        <h1>Whats New</h1>
+        <h1 style={{ textAlign: "center", margin: ".5rem" }}>What's New</h1>
+
         <ol className={blogStyles.posts}>
           {data.allMarkdownRemark.edges
             .slice(Math.max(data.allMarkdownRemark.edges.length - 3, 0))
@@ -78,12 +82,15 @@ const LatestBlog = () => {
                 <Link to={`/blog/${edge.node.fields.slug}`}>
                   <li>
                     <img
+                      style={{ margin: "0" }}
                       src={
                         edge.node.frontmatter.featuredImage.childImageSharp
                           .fluid.src
                       }
                     />
-                    <h2>{edge.node.frontmatter.title}</h2>
+                    <h2 style={{ marginBottom: ".3rem" }}>
+                      {edge.node.frontmatter.title}
+                    </h2>
                     <p>{edge.node.excerpt}</p>
                     <p>{edge.node.frontmatter.date}</p>
                     <p>Reading time {edge.node.timeToRead} min</p>

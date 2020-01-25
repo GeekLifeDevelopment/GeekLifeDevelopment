@@ -65,6 +65,7 @@ export const IndexPageStyles = styled.div`
     #about-text {
       width: 50%;
       align-self: center;
+      margin-bottom: 1rem;
 
       @media (max-width: 840px) {
         width: 100%;
