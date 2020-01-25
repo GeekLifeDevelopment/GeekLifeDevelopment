@@ -69,6 +69,8 @@ export const IndexPageStyles = styled.div`
       @media (max-width: 840px) {
         width: 100%;
         padding: 1rem;
+        font-size: 1.5em;
+        line-height: 1.5em;
       }
     }
 
