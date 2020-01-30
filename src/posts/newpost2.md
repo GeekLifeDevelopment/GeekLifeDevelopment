@@ -2,6 +2,7 @@
 title: "Post 2"
 date: "2019-04-04"
 featuredImage: ./260-tan.png
+category: "tutorial"
 ---
 
 I am just checking this out

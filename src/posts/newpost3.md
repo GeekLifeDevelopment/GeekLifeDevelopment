@@ -2,6 +2,7 @@
 title: "Post 3"
 date: "2019-04-04"
 featuredImage: ./260-tan.png
+category: "Your Mom"
 ---
 
 I am just checking this out

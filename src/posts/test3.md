@@ -1,7 +1,8 @@
 ---
 title: "Latest Addition"
 date: "2019-05-22"
-featuredImage: ./260-tan.png
+featuredImage: ./testImage.jpeg
+category: "blog"
 ---
 
 |

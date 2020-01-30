@@ -1,7 +1,8 @@
 ---
 title: "TesetBlog2"
 date: "2019-04-04"
-featuredImage: ./260-tan.png
+featuredImage: ./program.jpg
+category: "tutorial"
 ---
 
 I am just checking this out

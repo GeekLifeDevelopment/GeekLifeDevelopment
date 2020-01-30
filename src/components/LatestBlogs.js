@@ -3,42 +3,7 @@ import { Link, graphql, useStaticQuery } from "gatsby"
 import styled from "styled-components"
 import Layout from "../components/Layout"
 import blogStyles from "../pages/blog.module.scss"
-
-const LatestBlogStyles = styled.div`
-  h1 {
-    padding: 2rem;
-    text-decoration: none;
-  }
-
-  ol {
-    background-color: #88928c;
-    display: flex;
-    justify-content: space-around;
-    transform: skewY(-5deg);
-
-    li {
-      /* width: 350px; */
-      background-color: #bbcfc3;
-      box-shadow: 5px 10px 10px #4a6478;
-
-      img {
-        max-height: 8rem;
-        width: 100%;
-        object-fit: cover;
-      }
-      p {
-        text-decoration: none;
-      }
-      color: black;
-      margin: 2rem;
-      padding: 1rem;
-    }
-
-    @media (max-width: 1000px) {
-      display: block;
-    }
-  }
-`
+import { LatestBlogStyles } from "./styles/LatestBlogStyles"
 
 const LatestBlog = () => {
   const data = useStaticQuery(graphql`
@@ -81,19 +46,33 @@ const LatestBlog = () => {
               return (
                 <Link to={`/blog/${edge.node.fields.slug}`}>
                   <li>
-                    <img
-                      style={{ margin: "0" }}
-                      src={
-                        edge.node.frontmatter.featuredImage.childImageSharp
-                          .fluid.src
-                      }
-                    />
-                    <h2 style={{ marginBottom: ".3rem" }}>
-                      {edge.node.frontmatter.title}
-                    </h2>
-                    <p>{edge.node.excerpt}</p>
-                    <p>{edge.node.frontmatter.date}</p>
-                    <p>Reading time {edge.node.timeToRead} min</p>
+                    <div id="blog-card-container">
+                      <div id="category-label">
+                        <p>{edge.node.frontmatter.category}</p>
+                      </div>
+                      <div id="blog-card-info">
+                        <div id="image-container">
+                          <img
+                            style={{ margin: "0" }}
+                            src={
+                              edge.node.frontmatter.featuredImage
+                                .childImageSharp.fluid.src
+                            }
+                          />
+                        </div>
+                        <div id="title-container">
+                          <h1>
+                            {edge.node.frontmatter.title}
+                            <p>{edge.node.frontmatter.category}</p>
+                          </h1>
+                        </div>
+                        <p style={{ display: "none" }}>{edge.node.excerpt}</p>
+
+                        <p style={{ display: "none" }}>
+                          Reading time {edge.node.timeToRead} min
+                        </p>
+                      </div>
+                    </div>
                   </li>
                 </Link>
               )
