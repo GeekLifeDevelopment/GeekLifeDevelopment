@@ -61,10 +61,9 @@ const LatestBlog = () => {
                           />
                         </div>
                         <div id="title-container">
-                          <h1>
-                            {edge.node.frontmatter.title}
-                            <p>{edge.node.frontmatter.category}</p>
-                          </h1>
+                          <h1>{edge.node.frontmatter.title}</h1>
+                          <p>Date added: {edge.node.frontmatter.date}</p>
+                          <p>Reading time {edge.node.timeToRead} min</p>
                         </div>
                         <p style={{ display: "none" }}>{edge.node.excerpt}</p>
 
