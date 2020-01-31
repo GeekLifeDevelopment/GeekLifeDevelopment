@@ -19,9 +19,9 @@ const MainNavBar = props => {
             <p>Geek Life Development</p>
           </div>
           <ul>
-            <li>Tutorials</li>
-            <li>Blog</li>
-            <li>Say Hello</li>
+            <li>Articles</li>
+            <li>Meet me</li>
+            <li>Say hello</li>
           </ul>
           <div id="social-container">
             <ul>

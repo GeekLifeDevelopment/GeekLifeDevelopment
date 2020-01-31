@@ -45,9 +45,9 @@ const MobilNav = props => {
         id="nav-container"
       >
         <ul>
-          <li>Tutorials</li>
-          <li>Blog</li>
-          <li>Say Hello</li>
+          <li>Articles</li>
+          <li>Meet me</li>
+          <li>Say hello</li>
         </ul>
         <div id="social-mobile">
           <i className="fab fa-facebook-f"></i>
