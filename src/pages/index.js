@@ -11,6 +11,8 @@ import LatestBlog from "../components/LatestBlogs"
 import { IndexPageStyles } from "../components/styles/IndexPageStyles"
 
 import Button from "../components/controls/Button"
+import ProjectCard from "../components/ProjectCard"
+import BnBImage from "../images/butcher-and-barrel.jpg"
 
 const IndexPage = () => {
   return (
@@ -37,7 +39,7 @@ const IndexPage = () => {
               </div>
             </div>
           </div>
-          <h1 id="about-header">Hi, I'm Jason. Nice to meet you.</h1>
+          <h1 className="section-title">Hi, I'm Jason. Nice to meet you.</h1>
           <div id="about-section">
             <img
               style={{ borderRadius: "50%" }}
@@ -64,8 +66,18 @@ const IndexPage = () => {
               <Button btnName="More" />
             </div>
           </div>
-
+          <h1 className="section-title">What's New</h1>
           <LatestBlog />
+          <h1 className="section-title">Recent Work</h1>
+          <p style={{ textAlign: "center", margin: "0" }}>
+            Here are a few of my recent projects. Want to see more? send me a
+            line.
+          </p>
+          <div id="project-section">
+            <ProjectCard image={BnBImage} />
+            <ProjectCard />
+            <ProjectCard />
+          </div>
         </IndexPageStyles>
       </Layout>
     </>

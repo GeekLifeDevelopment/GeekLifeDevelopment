@@ -83,4 +83,14 @@ export const IndexPageStyles = styled.div`
   #about-header {
     text-align: center;
   }
+
+  .section-title {
+    text-align: center;
+    padding: 2rem 0 0 0;
+  }
+
+  #project-section {
+    display: flex;
+    justify-content: space-evenly;
+  }
 `

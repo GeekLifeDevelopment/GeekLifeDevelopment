@@ -36,8 +36,6 @@ const LatestBlog = () => {
   return (
     <LatestBlogStyles>
       <div>
-        <h1 style={{ textAlign: "center", margin: ".5rem" }}>What's New</h1>
-
         <ol className={blogStyles.posts}>
           {data.allMarkdownRemark.edges
             .slice(Math.max(data.allMarkdownRemark.edges.length - 3, 0))
