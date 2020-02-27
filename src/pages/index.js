@@ -76,9 +76,23 @@ const IndexPage = () => {
             line.
           </p>
           <div id="project-section">
-            <ProjectCard image={BnBImage} />
-            <ProjectCard image={TimberlineImage} />
-            <ProjectCard image={KodiakImage} />
+            <ProjectCard
+              image={BnBImage}
+              title="Butcher & Barrel"
+              description="Simple resturant website using Bootstrap, HTML5 and a little
+            Javascript"
+              link="/butcherandbarrel.pub"
+            />
+            <ProjectCard
+              image={TimberlineImage}
+              title="Timberline"
+              description="Static site built with React and Gatsby js"
+            />
+            <ProjectCard
+              image={KodiakImage}
+              title="Kodiak"
+              description="Static site built with React and Gatsby js and styled components"
+            />
           </div>
         </IndexPageStyles>
       </Layout>

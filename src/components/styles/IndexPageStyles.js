@@ -91,6 +91,7 @@ export const IndexPageStyles = styled.div`
 
   #project-section {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
   }
 `

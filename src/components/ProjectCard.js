@@ -1,17 +1,17 @@
 import React from "react"
 import { ProjectCardStyle } from "./styles/ProjectCardStyles"
+import { Link } from "gatsby"
 
 const ProjectCard = props => {
   return (
     <ProjectCardStyle>
       <div id="overlay">
         <div className="overlay-content">
-          <h1>Butcher & Barrel</h1>
-          <p>
-            Simple resturant website using Bootstrap, HTML5 and a little
-            Javascript
-          </p>
-          <button>More...</button>
+          <h1>{props.title}</h1>
+          <p>{props.description}</p>
+          <a href={props.link} target="_blank">
+            <button>View Site</button>
+          </a>
         </div>
       </div>
       <div id="card-container">
