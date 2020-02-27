@@ -13,6 +13,8 @@ import { IndexPageStyles } from "../components/styles/IndexPageStyles"
 import Button from "../components/controls/Button"
 import ProjectCard from "../components/ProjectCard"
 import BnBImage from "../images/butcher-and-barrel.jpg"
+import TimberlineImage from "../images/timberline.jpg"
+import KodiakImage from "../images/kodiak.jpg"
 
 const IndexPage = () => {
   return (
@@ -75,8 +77,8 @@ const IndexPage = () => {
           </p>
           <div id="project-section">
             <ProjectCard image={BnBImage} />
-            <ProjectCard />
-            <ProjectCard />
+            <ProjectCard image={TimberlineImage} />
+            <ProjectCard image={KodiakImage} />
           </div>
         </IndexPageStyles>
       </Layout>

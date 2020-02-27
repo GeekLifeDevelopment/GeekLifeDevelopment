@@ -1,6 +1,8 @@
 import styled from "styled-components"
 
 export const ProjectCardStyle = styled.div`
+  margin-top: 2rem;
+
   #card-container {
     position: relative;
     width: 300px;
@@ -19,15 +21,19 @@ export const ProjectCardStyle = styled.div`
     width: 300px;
     height: 300px;
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
     border-radius: 10%;
     z-index: 2;
-    /* display: none; */
+    display: none;
 
     &:hover {
       cursor: pointer;
       display: block;
     }
+  }
+
+  &:hover #overlay {
+    display: block;
   }
 
   .overlay-content {
