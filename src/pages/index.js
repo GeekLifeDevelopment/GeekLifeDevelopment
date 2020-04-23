@@ -100,7 +100,7 @@ const IndexPage = () => {
             <p style={{ textAlign: "center", margin: "0" }}>
               Want to connect? Hit me up with the fom below.
             </p>
-            <form id="contact-form" netlify>
+            <form id="contact-form" data-netlify="true">
               <input
                 id="first-name"
                 type="text"
