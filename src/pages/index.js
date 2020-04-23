@@ -94,6 +94,37 @@ const IndexPage = () => {
               description="Static site built with React and Gatsby js and styled components"
             />
           </div>
+
+          <div id="contact-form-section">
+            <h1 className="section-title">Get in Touch</h1>
+            <p style={{ textAlign: "center", margin: "0" }}>
+              Want to connect? Hit me up with the fom below.
+            </p>
+            <form id="contact-form" netlify>
+              <input
+                id="first-name"
+                type="text"
+                name="first-name"
+                placeholder="First Name"
+                required
+              />
+              <input
+                id="first-name"
+                type="text"
+                name="last-name"
+                placeholder="Last Name"
+              />
+              <input
+                id="email"
+                type="email"
+                name="email"
+                placeholder="E-Mail"
+                required
+              />
+              <textarea id="message" placeholder="What's Up?"></textarea>
+              <button type="submit">Say Hey</button>
+            </form>
+          </div>
         </IndexPageStyles>
       </Layout>
     </>

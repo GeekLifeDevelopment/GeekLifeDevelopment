@@ -94,4 +94,37 @@ export const IndexPageStyles = styled.div`
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
+
+  #contact-form {
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+
+    input {
+      margin-bottom: 1rem;
+    }
+
+    #first-name {
+      width: 100%;
+    }
+    #last-name {
+      width: 100%;
+    }
+
+    #email {
+      width: 100%;
+    }
+    #message {
+      width: 100%;
+      height: 200px;
+    }
+    button {
+      padding: 2px;
+      border-radius: 10px;
+      border: none;
+      width: 10rem;
+      background-color: #83b799;
+      color: white;
+    }
+  }
 `
