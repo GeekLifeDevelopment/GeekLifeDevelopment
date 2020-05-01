@@ -96,7 +96,7 @@ export const IndexPageStyles = styled.div`
   }
 
   #contact-form {
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     width: 600px;
     margin-right: auto;
     margin-left: auto;
