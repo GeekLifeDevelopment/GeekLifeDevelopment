@@ -111,7 +111,7 @@ const IndexPage = () => {
 
               <input
                 id="email"
-                type="email"
+                type="text"
                 name="email"
                 placeholder="E-Mail"
                 required
