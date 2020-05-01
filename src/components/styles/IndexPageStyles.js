@@ -113,12 +113,12 @@ export const IndexPageStyles = styled.div`
       width: 100%;
     }
 
-    textarea {
+    /* textarea {
       border: none;
       padding: 0.5rem;
       border-radius: 5px;
       margin-bottom: 1rem;
-    }
+    } */
 
     #message {
       width: 100%;
