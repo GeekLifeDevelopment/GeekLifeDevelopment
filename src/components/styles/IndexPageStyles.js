@@ -96,30 +96,24 @@ export const IndexPageStyles = styled.div`
   }
 
   #contact-form {
-    /* margin-top: 2rem; */
-    width: 600px;
+    width: 400px;
     margin-right: auto;
     margin-left: auto;
 
-    @media (max-width: 645px) {
-      width: 95%;
-    }
-
     input {
       margin-bottom: 1rem;
-      border: none;
-      padding: 0.5rem;
-      border-radius: 5px;
+    }
+
+    #first-name {
+      width: 100%;
+    }
+    #last-name {
       width: 100%;
     }
 
-    /* textarea {
-      border: none;
-      padding: 0.5rem;
-      border-radius: 5px;
-      margin-bottom: 1rem;
-    } */
-
+    #email {
+      width: 100%;
+    }
     #message {
       width: 100%;
       height: 200px;
@@ -131,7 +125,6 @@ export const IndexPageStyles = styled.div`
       width: 10rem;
       background-color: #83b799;
       color: white;
-      margin: 0 0.5rem;
     }
   }
 `

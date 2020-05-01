@@ -100,13 +100,19 @@ const IndexPage = () => {
             <p style={{ textAlign: "center", margin: "0" }}>
               Want to connect? Hit me up with the fom below.
             </p>
-            <form id="contact-form" method="POST" data-netlify="true">
+            <form id="contact-form" data-netlify="true">
               <input
-                id="full-name"
+                id="first-name"
                 type="text"
-                name="full-name"
-                placeholder="Name"
+                name="first-name"
+                placeholder="First Name"
                 required
+              />
+              <input
+                id="first-name"
+                type="text"
+                name="last-name"
+                placeholder="Last Name"
               />
               <input
                 id="email"
@@ -117,7 +123,6 @@ const IndexPage = () => {
               />
               <textarea id="message" placeholder="What's Up?"></textarea>
               <button type="submit">Say Hey</button>
-              <button type="reset">Oops! I goofed!</button>
             </form>
           </div>
         </IndexPageStyles>
