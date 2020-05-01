@@ -110,6 +110,7 @@ export const IndexPageStyles = styled.div`
       border: none;
       padding: 0.5rem;
       border-radius: 5px;
+      width: 100%;
     }
 
     textarea {
@@ -119,16 +120,6 @@ export const IndexPageStyles = styled.div`
       margin-bottom: 1rem;
     }
 
-    #first-name {
-      width: 100%;
-    }
-    #last-name {
-      width: 100%;
-    }
-
-    #email {
-      width: 100%;
-    }
     #message {
       width: 100%;
       height: 200px;

@@ -102,16 +102,15 @@ const IndexPage = () => {
             </p>
             <form id="contact-form" method="POST" data-netlify="true">
               <input
-                id="first-name"
+                id="full-name"
                 type="text"
-                name="first-name"
+                name="full-name"
                 placeholder="Name"
                 required
               />
-
               <input
                 id="email"
-                type="text"
+                type="email"
                 name="email"
                 placeholder="E-Mail"
                 required
