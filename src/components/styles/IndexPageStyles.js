@@ -96,11 +96,22 @@ export const IndexPageStyles = styled.div`
   }
 
   #contact-form {
-    width: 400px;
+    margin-top: 2rem;
+    width: 600px;
     margin-right: auto;
     margin-left: auto;
 
     input {
+      margin-bottom: 1rem;
+      border: none;
+      padding: 0.5rem;
+      border-radius: 5px;
+    }
+
+    textarea {
+      border: none;
+      padding: 0.5rem;
+      border-radius: 5px;
       margin-bottom: 1rem;
     }
 
@@ -125,6 +136,7 @@ export const IndexPageStyles = styled.div`
       width: 10rem;
       background-color: #83b799;
       color: white;
+      margin: 0 0.5rem;
     }
   }
 `

@@ -123,6 +123,7 @@ const IndexPage = () => {
               />
               <textarea id="message" placeholder="What's Up?"></textarea>
               <button type="submit">Say Hey</button>
+              <button type="reset">Oops! I goofed!</button>
             </form>
           </div>
         </IndexPageStyles>
