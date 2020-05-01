@@ -105,15 +105,10 @@ const IndexPage = () => {
                 id="first-name"
                 type="text"
                 name="first-name"
-                placeholder="First Name"
+                placeholder="Name"
                 required
               />
-              <input
-                id="first-name"
-                type="text"
-                name="last-name"
-                placeholder="Last Name"
-              />
+
               <input
                 id="email"
                 type="email"

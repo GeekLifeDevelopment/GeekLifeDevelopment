@@ -101,6 +101,10 @@ export const IndexPageStyles = styled.div`
     margin-right: auto;
     margin-left: auto;
 
+    @media (max-width: 645px) {
+      width: 95%;
+    }
+
     input {
       margin-bottom: 1rem;
       border: none;
