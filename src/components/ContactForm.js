@@ -22,7 +22,7 @@ const ContactForm = () => {
     <FormStyles>
       <form name="contact" method="POST" data-netlify="true">
         <input type="text" name="name" placeholder="Name" />
-        <input type="email" name="email" placeholder="Email" />
+        <input type="email" placeholder="Email" />
         <textarea />
         <button type="submit">Submit</button>
       </form>
