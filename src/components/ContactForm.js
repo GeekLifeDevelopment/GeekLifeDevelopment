@@ -12,6 +12,7 @@ const FormStyles = styled.div`
   textarea {
     width: 100%;
     height: 200px;
+    padding: 0.5rem;
     border: none;
     border-radius: 5px;
   }
@@ -20,10 +21,10 @@ const FormStyles = styled.div`
 const ContactForm = () => {
   return (
     <FormStyles>
-      <form data-netlify="true">
+      <form data-netlify="true" method="post">
         <input type="text" name="name" placeholder="Name" />
-        <input type="text" placeholder="Email" />
-        <textarea />
+        <input type="email" name="email" placeholder="Email" />
+        <textarea name="message" placeholder="What's on your mind?" />
         <button type="submit">Submit</button>
       </form>
     </FormStyles>
