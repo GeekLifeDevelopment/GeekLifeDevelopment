@@ -16,13 +16,13 @@ const MainNavBar = props => {
           <div id="hamburger-logo">
             <i onClick={props.showMobileNav} className="fas fa-bars"></i>
           </div>
-          <Link style={{ textDecoration: "none", color: "white" }} to="/">
-            <div id="logo-container-mobile">
-              <img src={Logo} alt="Geek Life Development Logo" />
+          {/* <Link style={{ textDecoration: "none", color: "white" }} to="/"> */}
+          <div id="logo-container-mobile">
+            <img src={Logo} alt="Geek Life Development Logo" />
 
-              <p>Geek Life Development</p>
-            </div>
-          </Link>
+            <p>Geek Life Development</p>
+          </div>
+          {/* </Link> */}
 
           <ul>
             <Link
