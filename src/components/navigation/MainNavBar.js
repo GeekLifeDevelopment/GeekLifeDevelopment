@@ -8,23 +8,21 @@ const MainNavBar = props => {
     <div>
       <MainNavBarStyles>
         <div id="navbar-container">
-          <Link style={{ color: "white", textDecoration: "none" }} to="/">
-            <div id="logo-container">
-              <img src={Logo} alt="Geek Life Development Logo" />
-              <p>Geek Life Development</p>
-            </div>
-          </Link>
+          <div id="logo-container">
+            <img src={Logo} alt="Geek Life Development Logo" />
+            <p>Geek Life Development</p>
+          </div>
 
           <div id="hamburger-logo">
             <i onClick={props.showMobileNav} className="fas fa-bars"></i>
           </div>
-
-          <div id="logo-container-mobile">
-            <Link to="/">
+          <Link style={{ textDecoration: "none", color: "white" }} to="/">
+            <div id="logo-container-mobile">
               <img src={Logo} alt="Geek Life Development Logo" />
-            </Link>
-            <p>Geek Life Development</p>
-          </div>
+
+              <p>Geek Life Development</p>
+            </div>
+          </Link>
 
           <ul>
             <Link
