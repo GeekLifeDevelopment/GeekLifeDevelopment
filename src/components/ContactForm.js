@@ -20,7 +20,7 @@ const FormStyles = styled.div`
 const ContactForm = () => {
   return (
     <FormStyles>
-      <form>
+      <form data-netlify="true">
         <input type="text" name="name" placeholder="Name" />
         <input type="email" placeholder="Email" />
         <textarea />
