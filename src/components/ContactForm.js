@@ -23,6 +23,9 @@ const ContactForm = () => {
     <FormStyles>
       <form data-netlify="true" method="post">
         <input type="text" name="name" placeholder="Name" />
+        <input type="text" name="name" placeholder="Name" />
+
+        <input type="email" name="email" placeholder="Email" />
         <input type="email" name="email" placeholder="Email" />
         <textarea name="message" placeholder="What's on your mind?" />
         <button type="submit">Submit</button>

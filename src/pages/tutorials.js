@@ -1,10 +1,13 @@
 import React from "react"
 import Layout from "../components/Layout"
+import ContactForm from "../components/ContactForm"
 
 const TutorialsPage = () => {
   return (
     <div>
-      <Layout>Here is the tutorials page</Layout>
+      <Layout>
+        <ContactForm />
+      </Layout>
     </div>
   )
 }
