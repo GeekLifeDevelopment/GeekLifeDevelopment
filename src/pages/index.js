@@ -39,6 +39,11 @@ const IndexPage = () => {
                 <i style={{ color: "#2965f1" }} className="fab fa-css3-alt"></i>
                 <i style={{ color: "#61dbfb" }} className="fab fa-react"></i>
                 <i style={{ color: "#F0DB4F" }} className="fab fa-js"></i>
+                <i
+                  style={{ color: "lightgrey" }}
+                  className="fas fa-gamepad"
+                ></i>
+                <i style={{ color: "red" }} className="fab fa-jedi-order"></i>
               </div>
             </div>
           </div>
