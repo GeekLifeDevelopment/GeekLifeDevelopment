@@ -15,6 +15,7 @@ import ProjectCard from "../components/ProjectCard"
 import BnBImage from "../images/butcher-and-barrel.jpg"
 import TimberlineImage from "../images/timberline.jpg"
 import KodiakImage from "../images/kodiak.jpg"
+import ContactForm from "../components/ContactForm"
 
 const IndexPage = () => {
   return (
@@ -100,30 +101,7 @@ const IndexPage = () => {
             <p style={{ textAlign: "center", margin: "0" }}>
               Want to connect? Hit me up with the fom below.
             </p>
-            <form id="contact-form" data-netlify="true">
-              <input
-                id="first-name"
-                type="text"
-                name="first-name"
-                placeholder="First Name"
-                required
-              />
-              <input
-                id="first-name"
-                type="text"
-                name="last-name"
-                placeholder="Last Name"
-              />
-              <input
-                id="email"
-                type="email"
-                name="email"
-                placeholder="E-Mail"
-                required
-              />
-              <textarea id="message" placeholder="What's Up?"></textarea>
-              <button type="submit">Say Hey</button>
-            </form>
+            <ContactForm />
           </div>
         </IndexPageStyles>
       </Layout>
