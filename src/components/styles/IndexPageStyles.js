@@ -96,8 +96,14 @@ export const IndexPageStyles = styled.div`
   }
 
   #contact-form-section {
-    width: 700px;
-    margin: auto;
-    padding: 1rem;
+    width: 100%;
+
+    /* padding: 1rem; */
+  }
+
+  .form-background {
+    width: 100%;
+    padding: 2rem;
+    background-color: #628384;
   }
 `

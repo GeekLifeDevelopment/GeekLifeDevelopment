@@ -5,9 +5,7 @@ import ContactForm from "../components/ContactForm"
 const TutorialsPage = () => {
   return (
     <div>
-      <Layout>
-        <ContactForm />
-      </Layout>
+      <ContactForm />
     </div>
   )
 }

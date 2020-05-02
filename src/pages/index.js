@@ -101,7 +101,9 @@ const IndexPage = () => {
             <p style={{ textAlign: "center", margin: "0" }}>
               Want to connect? Hit me up with the fom below.
             </p>
-            <ContactForm />
+            <div className="form-background">
+              <ContactForm />
+            </div>
           </div>
         </IndexPageStyles>
       </Layout>
