@@ -4,13 +4,13 @@ export const LatestBlogStyles = styled.div`
   ol {
     background-color: #88928c;
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: space-around;
     transform: skewY(-5deg);
 
-    @media (max-width: 1220px) {
+    /* @media (max-width: 1220px) {
       flex-direction: column;
-    }
+    } */
 
     li {
       padding: 1.5rem;
@@ -27,8 +27,9 @@ export const LatestBlogStyles = styled.div`
     box-shadow: 5px 5px 10px #333;
     overflow: hidden;
 
-    @media (max-width: 1220px) {
-      width: 100%;
+    @media (max-width: 1024px) {
+      width: 250px;
+      height: 200px;
     }
 
     #category-label {
@@ -67,12 +68,20 @@ export const LatestBlogStyles = styled.div`
           font-size: 5vh;
           margin: 0;
           text-shadow: 5px 5px 5px #333;
+          @media (max-width: 1024px) {
+            padding-top: 1rem;
+            font-size: 4vh;
+          }
         }
 
         p {
           padding: 0;
           margin: 0;
           font-style: italic;
+          @media (max-width: 1024px) {
+            padding-left: 2rem;
+            font-size: 1.8vh;
+          }
         }
       }
 
