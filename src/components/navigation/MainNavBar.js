@@ -9,7 +9,9 @@ const MainNavBar = props => {
       <MainNavBarStyles>
         <div id="navbar-container">
           <div id="logo-container">
-            <img src={Logo} alt="Geek Life Development Logo" />
+            <Link to="/">
+              <img src={Logo} alt="Geek Life Development Logo" />
+            </Link>
             <p>Geek Life Development</p>
           </div>
 

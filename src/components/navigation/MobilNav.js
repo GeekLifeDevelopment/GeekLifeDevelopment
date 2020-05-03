@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import { Link } from "gatsby"
 
 const MobilNavStyles = styled.div`
   #nav-container {
@@ -45,9 +46,21 @@ const MobilNav = props => {
         id="nav-container"
       >
         <ul>
-          <li>Articles</li>
-          <li>Meet me</li>
-          <li>Say hello</li>
+          <Link
+            style={{ textDecoration: "none", color: "white" }}
+            to="articles"
+          >
+            <li>Articles</li>
+          </Link>
+          <Link style={{ textDecoration: "none", color: "white" }} to="meet-me">
+            <li>Meet me</li>
+          </Link>
+          <Link
+            style={{ textDecoration: "none", color: "white" }}
+            to="/say-hello"
+          >
+            <li>Say hello</li>
+          </Link>
         </ul>
         <div id="social-mobile">
           <i className="fab fa-facebook-f"></i>
