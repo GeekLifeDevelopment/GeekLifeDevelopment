@@ -20,8 +20,9 @@ const MainNavBar = props => {
           </div>
           {/* <Link style={{ textDecoration: "none", color: "white" }} to="/"> */}
           <div id="logo-container-mobile">
-            <img src={Logo} alt="Geek Life Development Logo" />
-
+            <Link to="/">
+              <img src={Logo} alt="Geek Life Development Logo" />
+            </Link>
             <p>Geek Life Development</p>
           </div>
           {/* </Link> */}
