@@ -50,16 +50,41 @@ const MainNavBar = props => {
           <div id="social-container">
             <ul>
               <li>
-                <i className="fab fa-facebook-f"></i>
+                <a
+                  style={{ color: "white", textDecoration: "none" }}
+                  href="https://www.facebook.com/GeekLifeDev/?view_public_for=106659110726301"
+                  target="_blank"
+                >
+                  <i className="fab fa-facebook-f"></i>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  style={{ color: "white", textDecoration: "none" }}
+                  href="https://twitter.com/GeekLifeDev"
+                  target="_blank"
+                >
+                  <i className="fab fa-twitter"></i>
+                </a>
               </li>
               <li>
-                <i className="fab fa-twitter"></i>
+                <a
+                  style={{ color: "white", textDecoration: "none" }}
+                  href="https://www.linkedin.com/in/jasonsorenson/"
+                  target="_blank"
+                >
+                  <i className="fab fa-linkedin-in"></i>
+                </a>
               </li>
               <li>
-                <i className="fab fa-linkedin-in"></i>
-              </li>
-              <li>
-                <i className="fab fa-github"></i>
+                <a
+                  href="https://github.com/GeekLifeDevelopment"
+                  style={{ color: "white", textDecoration: "none" }}
+                  target="_blank"
+                >
+                  <i className="fab fa-github"></i>
+                </a>
               </li>
             </ul>
           </div>

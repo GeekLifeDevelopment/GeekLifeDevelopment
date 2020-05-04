@@ -63,10 +63,34 @@ const MobilNav = props => {
           </Link>
         </ul>
         <div id="social-mobile">
-          <i className="fab fa-facebook-f"></i>
-          <i className="fab fa-twitter"></i>
-          <i className="fab fa-linkedin-in"></i>
-          <i className="fab fa-github"></i>
+          <a
+            style={{ color: "white", textDecoration: "none" }}
+            href="https://www.facebook.com/GeekLifeDev/?view_public_for=106659110726301"
+            target="_blank"
+          >
+            <i className="fab fa-facebook-f"></i>
+          </a>
+          <a
+            style={{ color: "white", textDecoration: "none" }}
+            href="https://twitter.com/GeekLifeDev"
+            target="_blank"
+          >
+            <i className="fab fa-twitter"></i>
+          </a>
+          <a
+            style={{ color: "white", textDecoration: "none" }}
+            href="https://www.linkedin.com/in/jasonsorenson/"
+            target="_blank"
+          >
+            <i className="fab fa-linkedin-in"></i>
+          </a>
+          <a
+            href="https://github.com/GeekLifeDevelopment"
+            style={{ color: "white", textDecoration: "none" }}
+            target="_blank"
+          >
+            <i className="fab fa-github"></i>
+          </a>
         </div>
       </div>
     </MobilNavStyles>
