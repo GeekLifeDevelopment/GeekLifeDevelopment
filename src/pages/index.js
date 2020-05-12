@@ -62,7 +62,7 @@ Geek Life Development is a working living project that will continue to grow.  I
 I live in, and am most comfortable in Jamstack world, but do have some experience with PHP, C#, and Java. I love connecting with new people to share ideas, so don’t be shy drop me a line however you would like!
 
               </p>
-              <Button btnName="More" />
+              
             </div>
           </div>
           <h1 className="section-title">What's New</h1>
