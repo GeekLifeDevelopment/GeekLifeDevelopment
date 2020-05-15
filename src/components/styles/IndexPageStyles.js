@@ -96,7 +96,8 @@ export const IndexPageStyles = styled.div`
 
 @media (max-width: 750px) {
   width: 350px;
-margin: 2rem
+margin: 2rem auto;
+
 }
   
   }
