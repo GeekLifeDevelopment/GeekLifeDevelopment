@@ -36,13 +36,13 @@ const MainNavBar = props => {
             </Link>
             <Link
               style={{ color: "white", textDecoration: "none" }}
-              to="/meet-me"
+              to="#meet-me-section"
             >
               <li>Meet me</li>
             </Link>
             <Link
               style={{ color: "white", textDecoration: "none" }}
-              to="say-hello"
+              to="#contact-form-section"
             >
               <li>Say hello</li>
             </Link>

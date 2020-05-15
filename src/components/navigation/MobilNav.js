@@ -52,12 +52,15 @@ const MobilNav = props => {
           >
             <li>Articles</li>
           </Link>
-          <Link style={{ textDecoration: "none", color: "white" }} to="meet-me">
+          <Link
+            style={{ textDecoration: "none", color: "white" }}
+            to="#meet-me-section"
+          >
             <li>Meet me</li>
           </Link>
           <Link
             style={{ textDecoration: "none", color: "white" }}
-            to="/say-hello"
+            to="#contact-form-section"
           >
             <li>Say hello</li>
           </Link>
