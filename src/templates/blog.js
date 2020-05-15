@@ -31,7 +31,7 @@ export default ({ data }) => {
   let featuredImgFluid = post.frontmatter.featuredImage.childImageSharp.fluid
   return (
     <Layout>
-    <div id="image-container">
+    <div id="image-container" style={{width: '100%', height: '450px'}]>
     <Img fluid={featuredImgFluid} style={{width: '100%', height: '100%', objectFit: 'cover'}}/>
     </div>
       <BlogBody>
