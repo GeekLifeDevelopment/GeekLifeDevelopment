@@ -86,13 +86,18 @@ export const IndexPageStyles = styled.div`
 
   .section-title {
 
-    text-align: center;
-    margin: 2rem 0;
+  text-align: center;
+  margin: 2rem 0;
   padding: 3rem 0;
   font-weight: bold;
   border-bottom: 4px solid #83b799;
   width: 700px;
-  transform: rotate(-3deg);
+  transform: rotate(-5deg);
+
+@media (max-width: 750px) {
+  width: 350px;
+margin: 2rem
+}
   
   }
 
