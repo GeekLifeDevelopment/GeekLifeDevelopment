@@ -7,7 +7,7 @@ export default ({ data }) => {
   let featuredImgFluid = post.frontmatter.featuredImage.childImageSharp.fluid
   return (
     <Layout>
-      <div>
+      <div style={{width: '80%', padding: '.5rem'}}>
         <h1>{post.frontmatter.title}</h1>
         <Img fluid={featuredImgFluid} />
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
