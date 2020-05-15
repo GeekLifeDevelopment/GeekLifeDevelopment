@@ -13,7 +13,7 @@ const BlogBody = styled.div`
 h1 {
   text-align: center;
   margin: 2rem 0;
-  padding: 3rem 0;
+  padding: 1rem 0;
   font-weight: bold;
   border-bottom: 4px solid #83b799;
   width: 700px;
