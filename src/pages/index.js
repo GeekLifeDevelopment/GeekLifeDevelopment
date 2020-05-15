@@ -76,16 +76,12 @@ const IndexPage = () => {
                 <p>
                   Geek Life Development is a working living project that will
                   continue to grow. Into what I have no idea, but for now it is
-                  a place for me to share ideas, tutorials, connect, and just
-                  spout off if I feel the need. Think of it as my personally
-                  Journey to and through Development. Sounds like another Blog
-                  title!
+                  a place for me to share ideas, tutorials, dev tips, & connect with others.
                 </p>
                 <p>
-                  I live in, and am most comfortable in Jamstack world, but do
+                  I am most comfortable in Jamstack world, but do
                   have some experience with PHP, C#, and Java. I love connecting
-                  with new people to share ideas, so don’t be shy drop me a line
-                  however you would like!
+                  with new people to share ideas. Don’t be shy drop me a line!
                 </p>
                 <Button btnName="Say Hi" link="#contact-form-section" />
               </div>
