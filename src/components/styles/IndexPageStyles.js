@@ -88,14 +88,12 @@ export const IndexPageStyles = styled.div`
 
     text-align: center;
     margin: auto;
-  padding: 0.3rem;
+  padding: 2rem;
   font-weight: bold;
   border-bottom: 4px solid #83b799;
-  width: 400px;
-
-  h1 {
-    transform: rotate(-5deg);
-  }
+  width: 700px;
+  transform: rotate(-5deg);
+  
   }
 
   #project-section {
