@@ -1,6 +1,6 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a href="https://serene-wescoff-0b5806.netlify.app/static/geek-life-development-hero-logo-0e517b4cd3e17e589859368e65f3bd30.png">
+  <a href="https://geeklifedevelopment.com/static/geek-life-development-hero-logo-0e517b4cd3e17e589859368e65f3bd30.png">
     <img alt="Geek Life Development" src="https://serene-wescoff-0b5806.netlify.app/static/geek-life-development-logo-35f1bb2d4a2a0a5030a1d0f4ecd59777.png" width='100px'/>
   </a>
 </p>
