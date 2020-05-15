@@ -51,8 +51,11 @@ export const ProjectCardStyle = styled.div`
       padding: 0.3rem;
       color: white;
       background-color: #83b799;
-
       border: none;
+
+      &:hover {
+        cursor: pointer;
+      }
     }
   }
 `

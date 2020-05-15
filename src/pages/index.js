@@ -87,17 +87,19 @@ const IndexPage = () => {
               title="Butcher & Barrel"
               description="Simple resturant website using Bootstrap, HTML5 and a little
             Javascript"
-              link="/butcherandbarrel.pub"
+              link="http://www.butcherandbarrel.pub"
             />
             <ProjectCard
               image={TimberlineImage}
               title="Timberline"
               description="Static site built with React and Gatsby js"
+              link="http://www.timberlineclean.com"
             />
             <ProjectCard
               image={KodiakImage}
               title="Kodiak"
               description="Static site built with React and Gatsby js and styled components"
+              link="http://www.kodiakequip.com"
             />
           </div>
 
