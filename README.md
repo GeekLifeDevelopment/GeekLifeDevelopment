@@ -1,11 +1,11 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://serene-wescoff-0b5806.netlify.app/static/geek-life-development-hero-logo-0e517b4cd3e17e589859368e65f3bd30.png">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+    <img alt="Geek Life Development" src="https://serene-wescoff-0b5806.netlify.app/static/geek-life-development-logo-35f1bb2d4a2a0a5030a1d0f4ecd59777.png" width='100px'/>
   </a>
 </p>
 <h1 align="center">
-  Gatsby's hello-world starter
+  Geek Life Development 
 </h1>
 
 Kick off your project with this hello-world boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
