@@ -88,7 +88,7 @@ export const IndexPageStyles = styled.div`
 
     text-align: center;
     margin: auto;
-  padding: 2rem;
+  padding: 3rem 0;
   font-weight: bold;
   border-bottom: 4px solid #83b799;
   width: 700px;
