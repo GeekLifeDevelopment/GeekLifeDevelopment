@@ -4,6 +4,8 @@ import HeroImage from "../images/geek-life-development-hero-image.jpg"
 import HeroImageLogo from "../images/geek-life-development-hero-logo.png"
 import ProfileImage from "../images/jasonandbecky.jpg"
 
+import SectionTitle from "../components/SectionTitle"
+
 import { Helmet } from "react-helmet"
 
 import Layout from "../components/Layout"
@@ -48,6 +50,7 @@ const IndexPage = () => {
             </div>
           </div>
           <div id="meet-me-section">
+    <SectionTitle icon="far fa-handshake" title="Hi, I'm Jason. Nice to meet you."/>
             <h1 className="section-title">Hi, I'm Jason. Nice to meet you.</h1>
             <div id="about-section">
               <img
