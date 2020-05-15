@@ -56,22 +56,13 @@ const IndexPage = () => {
             />
             <div id="about-text">
               <p>
-                Lorem ipsum dolor amet air plant wayfarers ugh tbh, master
-                cleanse selvage asymmetrical shaman blue bottle keytar VHS
-                lumbersexual. Quinoa enamel pin intelligentsia schlitz roof
-                party occupy. Man bun copper mug unicorn, kale chips put a bird
-                on it palo santo before they sold out. Asymmetrical seitan
-                meditation palo santo bitters. chips put a bird on it palo santo
-                before they sold out. Asymmetrical seitan meditation palo santo
-                bitters.chips put a bird on it palo santo before they sold out.
-                Asymmetrical seitan meditation palo santo bitters.chips put a
-                bird on it palo santo before they sold out. Asymmetrical seitan
-                meditation palo santo bitters.chips put a bird on it palo santo
-                before they sold out. Asymmetrical seitan meditation palo santo
-                bitters.chips put a bird on it palo santo before they sold out.
-                Asymmetrical seitan meditation palo santo bitters.
+                I am a full stack web developer living in Wisconsin with my beautiful wife Rebecca, and our three daughters.  We are avid museum goes and love a multitude of outdoor activities.  Hanging out at the beach and in a canoe are some of our favorites.  Outside of family and work I enjoy retro video games, comics, Star Wars, you know, normal geek stuff.</p><p>
+Arriving to the developer field a little late, my journey started in 2015 when I decided to leave my arduous sales career of 20 + years and head back to school.  Without going into too much detail regarding my sales career, that’s a blog coming soon 😊.  I can say outside of marring my wife and having our three children this was the best decision I have ever made.</p>
+<p>Geek Life Development is a working living project that will continue to grow.  Into what I have no idea, but for now it is a place for me to share ideas, tutorials, connect,  and just spout off if I feel the need.  Think of it as my personally Journey to and through Development.  Sounds like another Blog title!</p>
+<p>I live in, and am most comfortable in Jamstack world, but do have some experience with PHP, C#, and Java. I love connecting with new people to share ideas, so don’t be shy drop me a line however you would like!
+
               </p>
-              <Button btnName="More" />
+              
             </div>
           </div>
           <h1 className="section-title">What's New</h1>
