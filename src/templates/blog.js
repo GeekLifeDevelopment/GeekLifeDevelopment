@@ -11,17 +11,18 @@ const BlogBody = styled.div`
   margin: 3rem auto;
 
 h1 {
-text-align: center;
+  text-align: center;
   margin: 2rem 0;
   padding: 3rem 0;
   font-weight: bold;
   border-bottom: 4px solid #83b799;
   width: 700px;
   transform: rotate(-5deg);
-@media (max-width: 750px) {
-  width: 350px;
-margin: 2rem auto;
-}
+  
+  @media (max-width: 750px) {
+    width: 350px;
+    margin: 2rem auto;
+  }
 }
 `
 
@@ -30,12 +31,11 @@ export default ({ data }) => {
   let featuredImgFluid = post.frontmatter.featuredImage.childImageSharp.fluid
   return (
     <Layout>
-    <div id="image-container" style={{width: '100%', height: '450px'}}>
+    <div id="image-container">
     <Img fluid={featuredImgFluid} style={{width: '100%', height: '100%', objectFit: 'cover'}}/>
     </div>
       <BlogBody>
         
-        //<Img fluid={featuredImgFluid} />
     <h1>{post.frontmatter.title}</h1>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </BlogBody>
