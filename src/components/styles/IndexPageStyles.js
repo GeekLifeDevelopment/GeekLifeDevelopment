@@ -85,8 +85,17 @@ export const IndexPageStyles = styled.div`
   }
 
   .section-title {
+
     text-align: center;
-    padding: 2rem 0 0 0;
+    margin: auto;
+  padding: 0.3rem;
+  font-weight: bold;
+  border-bottom: 4px solid #83b799;
+  width: 400px;
+
+  h1 {
+    transform: rotate(-5deg);
+  }
   }
 
   #project-section {
