@@ -4,8 +4,6 @@ import HeroImage from "../images/geek-life-development-hero-image.jpg"
 import HeroImageLogo from "../images/geek-life-development-hero-logo.png"
 import ProfileImage from "../images/jasonandbecky.jpg"
 
-
-
 import { Helmet } from "react-helmet"
 
 import Layout from "../components/Layout"
@@ -50,7 +48,6 @@ const IndexPage = () => {
             </div>
           </div>
           <div id="meet-me-section">
-    
             <h1 className="section-title">Hi, I'm Jason. Nice to meet you.</h1>
             <div id="about-section">
               <img
@@ -77,14 +74,15 @@ const IndexPage = () => {
                   ever made.
                 </p>
                 <p>
-                  Geek Life Development is a working living project that will
-                  continue to grow. Into what I have no idea, but for now it is
-                  a place for me to share ideas, tutorials, dev tips, & connect with others.
+                  Geek Life Development is a working project that will continue
+                  to grow. Into what I have no idea, but for now it's a place
+                  for me to share ideas, tutorials, dev tips, & connect with
+                  others.
                 </p>
                 <p>
-                  I am most comfortable in Jamstack world, but do
-                  have some experience with PHP, C#, and Java. I love connecting
-                  with new people to share ideas. Don’t be shy drop me a line!
+                  I am most comfortable in Jamstack world, but do have some
+                  experience with PHP, C#, and Java. I love connecting with new
+                  people to share ideas. Don’t be shy drop me a line!
                 </p>
                 <Button btnName="Say Hi" link="#contact-form-section" />
               </div>
