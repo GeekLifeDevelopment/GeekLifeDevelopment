@@ -82,6 +82,13 @@ const MobilNav = props => {
           </a>
           <a
             style={{ color: "white", textDecoration: "none" }}
+            href="https://www.instagram.com/geeklifedev"
+            target="_blank"
+          >
+            <i className="fab fa-instagram"></i>
+          </a>
+          <a
+            style={{ color: "white", textDecoration: "none" }}
             href="https://www.linkedin.com/in/jasonsorenson/"
             target="_blank"
           >

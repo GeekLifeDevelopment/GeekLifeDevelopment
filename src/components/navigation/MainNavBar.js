@@ -71,6 +71,15 @@ const MainNavBar = props => {
               <li>
                 <a
                   style={{ color: "white", textDecoration: "none" }}
+                  href="https://www.instagram.com/geeklifedev"
+                  target="_blank"
+                >
+                  <i className="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  style={{ color: "white", textDecoration: "none" }}
                   href="https://www.linkedin.com/in/jasonsorenson/"
                   target="_blank"
                 >

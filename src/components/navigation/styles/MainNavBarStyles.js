@@ -113,6 +113,13 @@ export const MainNavBarStyles = styled.div`
           cursor: pointer;
         }
       }
+
+      .fa-instagram {
+        &:hover {
+          cursor: pointer;
+          color: #833ab4;
+        }
+      }
     }
   }
 `
