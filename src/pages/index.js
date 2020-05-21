@@ -16,6 +16,7 @@ import BnBImage from "../images/butcher-and-barrel.jpg"
 import TimberlineImage from "../images/timberline.jpg"
 import KodiakImage from "../images/kodiak.jpg"
 import ContactForm from "../components/ContactForm"
+import Title from "../components/Title"
 
 const IndexPage = () => {
   return (
@@ -48,7 +49,11 @@ const IndexPage = () => {
             </div>
           </div>
           <div id="meet-me-section">
-            <h1 className="section-title">Hi, I'm Jason. Nice to meet you.</h1>
+            <Title
+              title="Hi, I'm Jason nice to meet you."
+              icon="far fa-handshake"
+            />
+            {/* <h1 className="section-title">Hi, I'm Jason. Nice to meet you.</h1> */}
             <div id="about-section">
               <img
                 style={{ borderRadius: "50%" }}
@@ -88,9 +93,11 @@ const IndexPage = () => {
               </div>
             </div>
           </div>
-          <h1 className="section-title">What's New</h1>
+          <Title title="What's New" icon="fas fa-scroll" />
+
           <LatestBlog />
-          <h1 className="section-title">Recent Work</h1>
+          <Title title="Recent Work" icon="fas fa-briefcase" />
+
           <p style={{ textAlign: "center", margin: "0" }}>
             Here are a few of my recent projects. Want to see more? send me a
             line.
@@ -118,7 +125,7 @@ const IndexPage = () => {
           </div>
 
           <div id="contact-form-section">
-            <h1 className="section-title">Get in Touch</h1>
+            <Title title="Get in touch" icon="fab fa-wpforms" />
             <p style={{ textAlign: "center", margin: "0" }}>
               Want to connect? Hit me up with the fom below.
             </p>
