@@ -58,7 +58,7 @@ const IndexPage = () => {
               <img
                 style={{ borderRadius: "50%" }}
                 src={ProfileImage}
-                alt="Profile image of my wife and me"
+                alt="Jason & Rebecca"
               />
               <div id="about-text">
                 <p>
@@ -70,25 +70,24 @@ const IndexPage = () => {
                   games, comics, Star Wars, you know, normal geek stuff.
                 </p>
                 <p>
-                  Arriving to the developer field a little late, my journey
+                  My development journey
                   started in 2015 when I decided to leave my arduous sales
                   career of 20 + years and head back to school. Without going
-                  into too much detail regarding my sales career, that’s a blog
-                  coming soon 😊. I can say outside of marring my wife and
-                  having our three children this was the best decision I have
+                  into detail regarding my sales career, that’s a blog
+                  coming soon 😊. This was the best career decision I have
                   ever made.
+                </p>
+     <p>
+                  I live in the Jamstack world, which I love, but do have
+                  experience with PHP, C#, and Java. 
                 </p>
                 <p>
                   Geek Life Development is a working project that will continue
                   to grow. Into what I have no idea, but for now it's a place
                   for me to share ideas, tutorials, dev tips, & connect with
-                  others.
+                  others.  Yes, I do freelance work!  For more information drop me a line.
                 </p>
-                <p>
-                  I am most comfortable in Jamstack world, but do have some
-                  experience with PHP, C#, and Java. I love connecting with new
-                  people to share ideas. Don’t be shy drop me a line!
-                </p>
+               
                 <Button btnName="Say Hi" link="#contact-form-section" />
               </div>
             </div>
