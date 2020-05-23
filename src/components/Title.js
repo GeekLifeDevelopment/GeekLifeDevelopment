@@ -9,7 +9,7 @@ const TitleCss = styled.div`
     max-width: 500px;
     text-align: center;
     transform: skew(10deg, -7deg);
-    box-shadow: 5px 5px 20px 10px;
+    box-shadow: 5px 10px 15px 5px;
     border: 1px solid black;
 
     @media (max-width: 600px) {
@@ -22,7 +22,7 @@ const TitleCss = styled.div`
 
     h1 {
       margin: 0;
-      padding: 1rem;
+      padding: 0.5rem;
       transform: rotate(5deg);
       font-size: 2em;
       color: white;
