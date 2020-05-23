@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "Geek Life Development",
+    description: "Geek Life Development",
     author: "Jason Sorenson",
   },
   plugins: [

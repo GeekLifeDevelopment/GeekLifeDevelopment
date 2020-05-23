@@ -18,12 +18,15 @@ import KodiakImage from "../images/kodiak.jpg"
 import ContactForm from "../components/ContactForm"
 import Title from "../components/Title"
 
+import Seo from "../components/Seo"
+
 const IndexPage = () => {
   return (
     <>
-      <Helmet>
+      <Seo title="Home" description="Here is the Home Page" />
+      {/* <Helmet>
         <title>Geek Life Development</title>
-      </Helmet>
+      </Helmet> */}
       <Layout>
         <IndexPageStyles>
           <div id="hero-image-container">
@@ -70,24 +73,24 @@ const IndexPage = () => {
                   games, comics, Star Wars, you know, normal geek stuff.
                 </p>
                 <p>
-                  My development journey
-                  started in 2015 when I decided to leave my arduous sales
-                  career of 20 + years and head back to school. Without going
-                  into detail regarding my sales career, that’s a blog
-                  coming soon 😊. This was the best career decision I have
+                  My development journey started in 2015 when I decided to leave
+                  my arduous sales career of 20 + years and head back to school.
+                  Without going into detail regarding my sales career, that’s a
+                  blog coming soon 😊. This was the best career decision I have
                   ever made.
                 </p>
-     <p>
+                <p>
                   I live in the Jamstack world, which I love, but do have
-                  experience with PHP, C#, and Java. 
+                  experience with PHP, C#, and Java.
                 </p>
                 <p>
                   Geek Life Development is a working project that will continue
                   to grow. Into what I have no idea, but for now it's a place
                   for me to share ideas, tutorials, dev tips, & connect with
-                  others.  Yes, I do freelance work!  For more information drop me a line.
+                  others. Yes, I do freelance work! For more information drop me
+                  a line.
                 </p>
-               
+
                 <Button btnName="Say Hi" link="#contact-form-section" />
               </div>
             </div>

@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import Img from "gatsby-image"
 import styled from "styled-components"
+import Seo from "../components/Seo"
 
 const BlogBody = styled.div`
   width: 80%;
@@ -29,18 +30,21 @@ export default ({ data }) => {
   let post = data.markdownRemark
   let featuredImgFluid = post.frontmatter.featuredImage.childImageSharp.fluid
   return (
-    <Layout>
-      <div id="image-container" style={{ width: "100%", height: "450px" }}>
-        <Img
-          fluid={featuredImgFluid}
-          style={{ width: "100%", height: "100%", objectFit: "cover" }}
-        />
-      </div>
-      <BlogBody>
-        <h1>{post.frontmatter.title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
-      </BlogBody>
-    </Layout>
+    <>
+      <Seo title={post.frontmatter.title} />
+      <Layout>
+        <div id="image-container" style={{ width: "100%", height: "450px" }}>
+          <Img
+            fluid={featuredImgFluid}
+            style={{ width: "100%", height: "100%", objectFit: "cover" }}
+          />
+        </div>
+        <BlogBody>
+          <h1>{post.frontmatter.title}</h1>
+          <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        </BlogBody>
+      </Layout>
+    </>
   )
 }
 export const query = graphql`
