@@ -129,7 +129,7 @@ const IndexPage = () => {
           <div id="contact-form-section">
             <Title title="Get in touch" icon="fab fa-wpforms" />
             <p style={{ textAlign: "center", margin: "0" }}>
-              Want to connect? Hit me up with the fom below.
+              Want to connect? Hit me up with the form below.
             </p>
             <div>
               <div className="form-background">
