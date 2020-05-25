@@ -4,6 +4,11 @@ import Layout from "../components/Layout"
 import Img from "gatsby-image"
 import styled from "styled-components"
 import Seo from "../components/Seo"
+import {
+  FacebookShareButton,
+  TwitterShareButton,
+  LinkedinShareButton,
+} from "react-share"
 
 const BlogBody = styled.div`
   width: 80%;
@@ -42,6 +47,10 @@ export default ({ data }) => {
         <BlogBody>
           <h1>{post.frontmatter.title}</h1>
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
+          <LinkedinShareButton
+            url="http://geekliferadio.com"
+            children="something"
+          />
         </BlogBody>
       </Layout>
     </>

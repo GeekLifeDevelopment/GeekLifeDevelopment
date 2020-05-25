@@ -1,12 +1,16 @@
 import React from "react"
 import Layout from "../components/Layout"
 import AllBlogs from "../components/AllBlogs"
+import Seo from "../components/Seo"
 
 const ArticlesPage = () => {
   return (
-    <Layout>
-      <AllBlogs />
-    </Layout>
+    <>
+      <Seo title="Articles" />
+      <Layout>
+        <AllBlogs />
+      </Layout>
+    </>
   )
 }
 

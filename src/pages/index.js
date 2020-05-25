@@ -87,8 +87,8 @@ const IndexPage = () => {
                   Geek Life Development is a working project that will continue
                   to grow. Into what I have no idea, but for now it's a place
                   for me to share ideas, tutorials, dev tips, & connect with
-                  others. Yes, I do freelance work! For more information drop me
-                  a line.
+                  others. Yes, I do freelance work! For more information you can
+                  reach reach me with the form below.
                 </p>
 
                 <Button btnName="Say Hi" link="#contact-form-section" />
