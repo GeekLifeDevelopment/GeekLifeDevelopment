@@ -5,10 +5,15 @@ import Img from "gatsby-image"
 import styled from "styled-components"
 import Seo from "../components/Seo"
 import {
+  EmailShareButton,
   FacebookShareButton,
   TwitterShareButton,
   LinkedinShareButton,
 } from "react-share"
+
+import { FacebookIcon, TwitterIcon, LinkedinIcon, EmailIcon } from "react-share"
+
+import FacebookImage from "../images/kodiak.jpg"
 
 const BlogBody = styled.div`
   width: 80%;
@@ -29,11 +34,21 @@ const BlogBody = styled.div`
       margin: 2rem auto;
     }
   }
+
+  .icon-container {
+    width: 320px;
+    display: flex;
+    justify-content: space-evenly;
+  }
 `
 
 export default ({ data }) => {
   let post = data.markdownRemark
   let featuredImgFluid = post.frontmatter.featuredImage.childImageSharp.fluid
+  let slug = data.markdownRemark.fields.slug
+  let pageUrl = "geeklifedevelopment.com/blog/" + slug
+
+  console.log(pageUrl)
   return (
     <>
       <Seo title={post.frontmatter.title} />
@@ -47,10 +62,28 @@ export default ({ data }) => {
         <BlogBody>
           <h1>{post.frontmatter.title}</h1>
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
-          <LinkedinShareButton
-            url="http://geekliferadio.com"
-            children="something"
-          />
+          <div className="share-btn-container">
+            <h4>Share this article</h4>
+            <div className="icon-container">
+              <TwitterShareButton
+                url={pageUrl}
+                title={post.frontmatter.title}
+                children="click here"
+              >
+                <TwitterIcon size={32} round="yes" />
+              </TwitterShareButton>
+
+              <FacebookShareButton url={pageUrl} title={post.frontmatter.title}>
+                <FacebookIcon url={pageUrl} size={32} round="yes" />
+              </FacebookShareButton>
+              <LinkedinShareButton url={pageUrl} title={post.frontmatter.title}>
+                <LinkedinIcon size={32} round="yes" />
+              </LinkedinShareButton>
+              <EmailShareButton url={pageUrl} subject={post.frontmatter.title}>
+                <EmailIcon size={32} round="yes" />
+              </EmailShareButton>
+            </div>
+          </div>
         </BlogBody>
       </Layout>
     </>
@@ -59,6 +92,9 @@ export default ({ data }) => {
 export const query = graphql`
   query PostQuery($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
+      fields {
+        slug
+      }
       html
       frontmatter {
         title
