@@ -76,7 +76,11 @@ export default ({ data }) => {
               <FacebookShareButton url={pageUrl} title={post.frontmatter.title}>
                 <FacebookIcon url={pageUrl} size={32} round="yes" />
               </FacebookShareButton>
-              <LinkedinShareButton url={pageUrl} title={post.frontmatter.title}>
+              <LinkedinShareButton
+                url={pageUrl}
+                title={post.frontmatter.title}
+                source="Geek Life Development"
+              >
                 <LinkedinIcon size={32} round="yes" />
               </LinkedinShareButton>
               <EmailShareButton url={pageUrl} subject={post.frontmatter.title}>
