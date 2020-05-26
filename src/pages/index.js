@@ -68,19 +68,18 @@ const IndexPage = () => {
                   I am a full stack web developer living in Wisconsin with my
                   beautiful wife Rebecca, and our three daughters. We are avid
                   museum goes and love a multitude of outdoor activities.
-                  Hanging out at the beach and in a canoe are some of our
+                  Hanging out at the beach and in a canoe are a couple of our
                   favorites. Outside of family and work I enjoy retro video
                   games, comics, Star Wars, you know, normal geek stuff.
                 </p>
                 <p>
                   My development journey started in 2015 when I decided to leave
                   my arduous sales career of 20 + years and head back to school.
-                  Without going into detail regarding my sales career, that’s a
-                  blog coming soon 😊. This was the best career decision I have
+                  Without going into detail regarding my sales career, this was the by far the best career decision I have
                   ever made.
                 </p>
                 <p>
-                  I live in the Jamstack world, which I love, but do have
+                  I live in the Jamstack world, but do have
                   experience with PHP, C#, and Java.
                 </p>
                 <p>
