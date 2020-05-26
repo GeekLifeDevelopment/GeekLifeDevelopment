@@ -88,7 +88,7 @@ const IndexPage = () => {
                   to grow. Into what I have no idea, but for now it's a place
                   for me to share ideas, tutorials, dev tips, & connect with
                   others. Yes, I do freelance work! For more information you can
-                  reach reach me with the form below.
+                  reach me with the form below.
                 </p>
 
                 <Button btnName="Say Hi" link="#contact-form-section" />
