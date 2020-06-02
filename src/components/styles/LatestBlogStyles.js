@@ -65,7 +65,7 @@ export const LatestBlogStyles = styled.div`
 
         h1 {
           text-align: center;
-          font-size: 5vh;
+          font-size: 4vh;
           margin: 0;
           text-shadow: 5px 5px 5px #333;
           @media (max-width: 1024px) {
