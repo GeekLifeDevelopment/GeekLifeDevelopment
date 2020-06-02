@@ -1,5 +1,5 @@
 ---
-title: Responsive navigation with React Hooks
+title: Responsive nav | React Hooks
 date: "2020-01-06"
 featuredImage: "./Media-Queries.png"
 category: "tutorial"
