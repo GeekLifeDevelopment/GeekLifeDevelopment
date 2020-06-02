@@ -61,7 +61,7 @@ export const LatestBlogStyles = styled.div`
         left: 50%;
         margin-left: -135px;
         top: 30%;
-        /* margin-top: -125px; */
+       padding: .5rem;
 
         h1 {
           text-align: center;
@@ -69,7 +69,7 @@ export const LatestBlogStyles = styled.div`
           margin: 0;
           text-shadow: 5px 5px 5px #333;
           @media (max-width: 1024px) {
-            padding-top: 1rem;
+            padding: 1rem;
             font-size: 4vh;
           }
         }
