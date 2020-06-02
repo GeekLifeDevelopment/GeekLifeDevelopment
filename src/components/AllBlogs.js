@@ -37,7 +37,7 @@ const AllBlogs = () => {
     <AllBlogsStyles>
       <div>
         <ol className={blogStyles.posts}>
-          {data.allMarkdownRemark.edges.map(edge => {
+          {data.allMarkdownRemark.edges.reverse().map(edge => {
             return (
               <Link to={`/blog/${edge.node.fields.slug}`}>
                 <li>
