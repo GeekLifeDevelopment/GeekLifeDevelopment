@@ -69,8 +69,8 @@ export const LatestBlogStyles = styled.div`
           margin: 0;
           text-shadow: 5px 5px 5px #333;
           @media (max-width: 1024px) {
-            padding: 1rem;
-            font-size: 4vh;
+            padding: 0 1rem;
+            font-size: 2.5vh;
           }
         }
 
