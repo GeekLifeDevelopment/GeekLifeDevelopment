@@ -61,16 +61,16 @@ export const LatestBlogStyles = styled.div`
         left: 50%;
         margin-left: -135px;
         top: 30%;
-        /* margin-top: -125px; */
+       padding: .5rem;
 
         h1 {
           text-align: center;
-          font-size: 5vh;
+          font-size: 4vh;
           margin: 0;
           text-shadow: 5px 5px 5px #333;
           @media (max-width: 1024px) {
-            padding-top: 1rem;
-            font-size: 4vh;
+            padding: 0 1rem;
+            font-size: 2.5vh;
           }
         }
 
