@@ -16,7 +16,7 @@ const MainNavBar = props => {
           </div>
 
           <div id="hamburger-logo">
-            <i onClick={props.showMobileNav} className="fas fa-bars"></i>
+            <i onClick={props.showMobileNav} className={props.mobileBtn}></i>
           </div>
           {/* <Link style={{ textDecoration: "none", color: "white" }} to="/"> */}
           <div id="logo-container-mobile">
