@@ -56,13 +56,13 @@ const MobilNav = props => {
             style={{ textDecoration: "none", color: "white" }}
             to="#meet-me-section"
           >
-            <li>Meet me</li>
+            <li onClick={props.closeMobileNav}>Meet me</li>
           </Link>
           <Link
             style={{ textDecoration: "none", color: "white" }}
             to="#contact-form-section"
           >
-            <li>Say hello</li>
+            <li onClick={props.closeMobileNav}>Say hello</li>
           </Link>
         </ul>
         <div id="social-mobile">

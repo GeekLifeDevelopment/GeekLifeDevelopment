@@ -15,6 +15,13 @@ class Navigation extends Component {
       this.setState({ mobileNavMargin: "-500px", mobileBtn: "fas fa-bars" })
     }
   }
+
+  closeMobileNav = () => {
+    if (this.state.mobileNavMargin === "0") {
+      this.setState({ mobileNavMargin: "-500px", mobileBtn: "fas fa-bars" })
+    } else this.setState({ mobileNavMargin: "0" })
+  }
+
   render() {
     return (
       <div>
@@ -23,7 +30,10 @@ class Navigation extends Component {
           mobileBtn={this.state.mobileBtn}
         />
         <div id="mobile-nav">
-          <MobilNav mobileNavMargin={this.state.mobileNavMargin} />
+          <MobilNav
+            mobileNavMargin={this.state.mobileNavMargin}
+            closeMobileNav={this.closeMobileNav}
+          />
         </div>
       </div>
     )
