@@ -15,6 +15,7 @@ import ProjectCard from "../components/ProjectCard"
 import BnBImage from "../images/butcher-and-barrel.jpg"
 import TimberlineImage from "../images/timberline.jpg"
 import KodiakImage from "../images/kodiak.jpg"
+import GeekLifeRadioImage from "../images/geekliferadio.jpeg"
 import ContactForm from "../components/ContactForm"
 import Title from "../components/Title"
 
@@ -75,12 +76,12 @@ const IndexPage = () => {
                 <p>
                   My development journey started in 2015 when I decided to leave
                   my arduous sales career of 20 + years and head back to school.
-                  Without going into detail regarding my sales career, this was the by far the best career decision I have
-                  ever made.
+                  Without going into detail regarding my sales career, this was
+                  the by far the best career decision I have ever made.
                 </p>
                 <p>
-                  I live in the Jamstack world, but do have
-                  experience with PHP, C#, and Java.
+                  I live in the Jamstack world, but do have experience with PHP,
+                  C#, and Java.
                 </p>
                 <p>
                   Geek Life Development is a working project that will continue
@@ -122,6 +123,12 @@ const IndexPage = () => {
               title="Kodiak"
               description="Static site built with React and Gatsby js and styled components"
               link="http://www.kodiakequip.com"
+            />
+            <ProjectCard
+              image={GeekLifeRadioImage}
+              title="Geek Life Radio"
+              description="Pet Project of mine. Gatsby and Contentfull headless CMS"
+              link="http://www.geekliferadio.com"
             />
           </div>
 
